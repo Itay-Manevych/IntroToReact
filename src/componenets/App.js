@@ -6,7 +6,7 @@ import Button from "./Button/Button"
 const App=() => {
   
   const [productsState, setProductsState] = useState([])
-  console.log("hi")
+
   useEffect(()=>{
 
     fetch('https://fakestoreapi.com/products')
